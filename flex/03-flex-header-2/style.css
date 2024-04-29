@@ -12,21 +12,27 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  
 }
 
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-  border-radius: 50%;
+  border-radius: 50%;  display: flex;
+
   width: 48px;
   height: 48px;
+  margin-left: 16px;
 }
 
 .logo {
   color: rebeccapurple;
   font-size: 32px;
-  font-weight: 900;
+  font-weight: 1000;
   font-style: italic;
+  padding-top: 6px;
+  padding-left: 2px;
 }
 
 button {
@@ -35,14 +41,25 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  
+  align-self: center;
+  
+  
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  display: flex;
+  
 }
 
 ul {
   list-style-type: none;
+  justify-content: end;
+  display: flex;
+  gap: 8px;
+  margin-right: auto;
+  padding-left: 16px;
 }
